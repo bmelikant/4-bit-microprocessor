@@ -1,0 +1,16 @@
+ldR $	// load register from memory
+ldR #	// load register from immediate
+stR $	// store register to memory
+
+add	// add b to a, store result in a
+sub	// subtract b from a, store result in a
+
+jmp #	// jump to memory address
+jmp $	// indirect jump to memory address
+jmpF #	// jump to memory address on condition
+jmpF $	// indirect jump to memory address on condition
+
+pushR	// push register value onto the stack
+push #	// push an immediate value onto the stack
+popR	// pop value from stack into register
+
