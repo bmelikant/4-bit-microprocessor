@@ -14,3 +14,5 @@ pushR	// push register value onto the stack
 push #	// push an immediate value onto the stack
 popR	// pop value from stack into register
 
+inR	// read a value from the input register into the specified register
+outR	// write a value from the given register to the output register
